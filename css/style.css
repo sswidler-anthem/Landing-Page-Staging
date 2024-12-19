@@ -4,69 +4,70 @@
   Base Style Defaults
   ========================================================================== */
 :root {
-  --gold-brand: #c69435;
-  --gold-md: #e0bb76;
-  --gold-lt: #f0cf77;
-  --gold-xlt: #f2efdf;
-  --green-brand: #00352b;
-  --green-md: #0a4036;
-  --green-lt: #4f8c6f;
-  --gold-shade-1: #36290f;
-  --gold-shade-2: #584218;
-  --gold-shade-3: #7a5b21;
-  --gold-shade-4: #9c742a;
-  --gold-shade-5: #be8e33;
-  --gold-shade-6: #ebe5d9;
-  --white: #ffffff;
-  --grey-xlt: #eaeaea;
-  --grey-lt: #bfbfbf;
-  --grey-md: #404040;
-  --grey-dk: #0d0d0d;
-  --grey-aaa: #6b6b6b;
-  --black: #000000;
-  --feature: #455972;
-  --highlight: #36a3c7;
-  --warning: #c76e36;
-  --alert: #bd4833;
+	--gold-brand: #c69435;
+	--gold-md: #e0bb76;
+	--gold-lt: #f0cf77;
+	--gold-xlt: #f2efdf;
+	--green-brand: #00352b;
+	--green-md: #0a4036;
+	--green-lt: #4f8c6f;
+	--gold-shade-1: #36290f;
+	--gold-shade-2: #584218;
+	--gold-shade-3: #7a5b21;
+	--gold-shade-4: #9c742a;
+	--gold-shade-5: #be8e33;
+	--gold-shade-6: #ebe5d9;
+	--white: #ffffff;
+	--grey-xlt: #eaeaea;
+	--grey-lt: #bfbfbf;
+	--grey-md: #404040;
+	--grey-dk: #0d0d0d;
+	--grey-aaa: #6b6b6b;
+	--black: #000000;
+	--feature: #455972;
+	--highlight: #36a3c7;
+	--warning: #c76e36;
+	--alert: #bd4833;
 }
 
 /* Google Font - Inter */
 @font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 100 900;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/inter/v18/UcCo3FwrK3iLTcviYwYZ8UA3.woff2)
-    format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
-    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
-    U+2212, U+2215, U+FEFF, U+FFFD;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 100 900;
+	font-display: swap;
+	src: url(https://fonts.gstatic.com/s/inter/v18/UcCo3FwrK3iLTcviYwYZ8UA3.woff2)
+		format("woff2");
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+		U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+		U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 /* Google Font - PT Serif */
 @font-face {
-  font-family: "PT Serif";
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/ptserif/v18/EJRSQgYoZZY2vCFuvAnt66qSVyvVp8NA.woff2)
-    format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
-    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
-    U+2212, U+2215, U+FEFF, U+FFFD;
+	font-family: "PT Serif";
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(https://fonts.gstatic.com/s/ptserif/v18/EJRSQgYoZZY2vCFuvAnt66qSVyvVp8NA.woff2)
+		format("woff2");
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+		U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+		U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 html {
-  font-family: "Inter", Inter, Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  color: var(--grey-dk);
-  font-size: 1em;
-  line-height: 1.4;
+	font-family: "Inter", Inter, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	color: var(--grey-dk);
+	font-size: 1em;
+	line-height: 1.4;
+	scroll-behavior: smooth;
 }
 
 body {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 h1,
@@ -79,12 +80,12 @@ label,
 details summary,
 figcaption,
 blockquote {
-  margin: 0;
-  padding: 0;
-  font-family: "PT Serif", PT Serif, Georgia, "Times New Roman", Times, serif;
-  font-weight: 500;
-  line-height: 1.2;
-  color: var(--grey-dk);
+	margin: 0;
+	padding: 0;
+	font-family: "PT Serif", PT Serif, Georgia, "Times New Roman", Times, serif;
+	font-weight: 500;
+	line-height: 1.2;
+	color: var(--grey-dk);
 }
 
 p,
@@ -93,39 +94,39 @@ ul li,
 img,
 details,
 input {
-  margin: 0;
-  padding: 0;
-  font-family: "Inter", Inter, Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  color: var(--grey-md);
+	margin: 0;
+	padding: 0;
+	font-family: "Inter", Inter, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	color: var(--grey-md);
 }
 
 hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
 }
 
 h1 {
-  font-size: clamp(2rem, 2rem + ((1vw - 0.2rem) * 2), 3rem);
+	font-size: clamp(2rem, 2rem + ((1vw - 0.2rem) * 2), 3rem);
 }
 h2 {
-  font-size: clamp(1.5rem, 1.5rem + ((1vw - 0.3rem) * 1), 2.5rem);
+	font-size: clamp(1.5rem, 1.5rem + ((1vw - 0.3rem) * 1), 2.5rem);
 }
 h3 {
-  font-size: clamp(1.25rem, 1.25rem + ((1vw - 0.5rem) * 1), 2rem);
+	font-size: clamp(1.25rem, 1.25rem + ((1vw - 0.5rem) * 1), 2rem);
 }
 h4 {
-  font-size: clamp(1.1rem, 1.1rem + ((1vw - 0.65rem) * 1), 1.5rem);
+	font-size: clamp(1.1rem, 1.1rem + ((1vw - 0.65rem) * 1), 1.5rem);
 }
 h5 {
-  font-size: clamp(1rem, 1rem + ((1vw - 0.85rem) * 1), 1.25rem);
+	font-size: clamp(1rem, 1rem + ((1vw - 0.85rem) * 1), 1.25rem);
 }
 h6 {
-  font-size: clamp(0.8rem, 0.8rem + ((1vw - 1rem) * 1), 1rem);
+	font-size: clamp(0.8rem, 0.8rem + ((1vw - 1rem) * 1), 1rem);
 }
 
 /* ==========================================================================
@@ -134,12 +135,12 @@ h6 {
 
 /* Text Highlight */
 ::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
+	background: #b3d4fc;
+	text-shadow: none;
 }
 ::selection {
-  background: #b3d4fc;
-  text-shadow: none;
+	background: #b3d4fc;
+	text-shadow: none;
 }
 
 /* Remove Gap Between Containers */
@@ -149,135 +150,135 @@ iframe,
 img,
 svg,
 video {
-  vertical-align: middle;
+	vertical-align: middle;
 }
 
 /* Remove Default Fieldset Styles */
 fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
+	border: 0;
+	margin: 0;
+	padding: 0;
 }
 
 /* Allow only vertical resizing of textareas */
 textarea {
-  resize: vertical;
+	resize: vertical;
 }
 
 .clearfix::before,
 .clearfix::after {
-  content: "";
-  display: table;
+	content: "";
+	display: table;
 }
 
 .clearfix::after {
-  clear: both;
+	clear: both;
 }
 
 /* Hide visually and from screen readers */
 .hidden,
 [hidden] {
-  display: none !important;
+	display: none !important;
 }
 
 /* Hide only visually, but have it available for screen readers */
 .visually-hidden {
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  /* 1 */
+	border: 0;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+	/* 1 */
 }
 
 /* Focus Via Keyboard */
 .visually-hidden.focusable:active,
 .visually-hidden.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  white-space: inherit;
-  width: auto;
+	clip: auto;
+	height: auto;
+	margin: 0;
+	overflow: visible;
+	position: static;
+	white-space: inherit;
+	width: auto;
 }
 
 /* Hide visually and from screen readers, but maintain layout */
 .invisible {
-  visibility: hidden;
+	visibility: hidden;
 }
 
 /* ==========================================================================
    Print styles.
    ========================================================================== */
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+	(-webkit-min-device-pixel-ratio: 1.25),
+	(min-resolution: 1.25dppx),
+	(min-resolution: 120dpi) {
+	/* Style adjustments for high resolution devices */
 }
 
 @media print {
-  *,
-  *::before,
-  *::after {
-    background: #fff !important;
-    color: #000 !important;
-    /* Black prints faster */
-    box-shadow: none !important;
-    text-shadow: none !important;
-  }
+	*,
+	*::before,
+	*::after {
+		background: #fff !important;
+		color: #000 !important;
+		/* Black prints faster */
+		box-shadow: none !important;
+		text-shadow: none !important;
+	}
 
-  a,
-  a:visited {
-    text-decoration: underline;
-  }
+	a,
+	a:visited {
+		text-decoration: underline;
+	}
 
-  a[href]::after {
-    content: " (" attr(href) ")";
-  }
+	a[href]::after {
+		content: " (" attr(href) ")";
+	}
 
-  abbr[title]::after {
-    content: " (" attr(title) ")";
-  }
+	abbr[title]::after {
+		content: " (" attr(title) ")";
+	}
 
-  /*
+	/*
    * Don't show links that are fragment identifiers,
    * or use the `javascript:` pseudo protocol
    */
-  a[href^="#"]::after,
-  a[href^="javascript:"]::after {
-    content: "";
-  }
+	a[href^="#"]::after,
+	a[href^="javascript:"]::after {
+		content: "";
+	}
 
-  pre {
-    white-space: pre-wrap !important;
-  }
+	pre {
+		white-space: pre-wrap !important;
+	}
 
-  pre,
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
+	pre,
+	blockquote {
+		border: 1px solid #999;
+		page-break-inside: avoid;
+	}
 
-  tr,
-  img {
-    page-break-inside: avoid;
-  }
+	tr,
+	img {
+		page-break-inside: avoid;
+	}
 
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3;
-  }
+	p,
+	h2,
+	h3 {
+		orphans: 3;
+		widows: 3;
+	}
 
-  h2,
-  h3 {
-    page-break-after: avoid;
-  }
+	h2,
+	h3 {
+		page-break-after: avoid;
+	}
 }
