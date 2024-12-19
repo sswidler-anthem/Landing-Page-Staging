@@ -1,0 +1,114 @@
+header._green {
+  background: linear-gradient(135deg, #002d24 0%, #0a4036 50%, #002d24 100%);
+}
+header._green nav div.row div.offer p,
+header._green nav div.row div.offer h5 {
+  color: var(--gold-shade-6);
+}
+header._green nav div.row div.offer a {
+  background: linear-gradient(135deg, var(--gold-md) 0%, var(--gold-lt) 25%, var(--gold-lt) 75%, var(--gold-md) 100%);
+  color: var(--grey-dk);
+  border-right: 2px solid var(--gold-shade-3);
+  border-bottom: 2px solid var(--gold-shade-3);
+}
+
+nav div.row {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 8px 16px 8px;
+}
+
+nav div.row div.logo {
+  padding: 8px 0;
+}
+nav div.row div.logo img {
+  width: 160px;
+}
+
+nav div.row div.offer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+nav div.row div.offer h5 {
+  display: block;
+  padding-top: 12px;
+}
+nav div.row div.offer a {
+  display: flex;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 14px 18px 12px 18px;
+  font-size: 22px;
+  line-height: 1;
+  font-weight: 500;
+  color: var(--white);
+  background-color: var(--gold-brand);
+  text-decoration: none;
+  border-right: 2px solid var(--gold-shade-4);
+  border-bottom: 2px solid var(--gold-shade-4);
+  border-radius: 4px;
+}
+nav div.row div.offer div.offer-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+nav div.row div.offer div.offer-copy p {
+  padding: 8px 0 0 0;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+nav div.row div.offer div.offer-copy span {
+  display: block;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 678px) {
+  nav div.row {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 8px;
+  }
+  nav div.row div.logo img {
+    width: 192px;
+    height: auto;
+  }
+  nav div.row div.offer h5 {
+    display: block;
+    padding-top: 0;
+    font-size: 16px;
+  }
+  nav div.row div.offer a {
+    display: inline-block;
+    padding: 0;
+    color: var(--gold-brand);
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+  }
+  nav div.row div.offer div.offer-copy {
+    flex-direction: row;
+  }
+  nav div.row div.offer div.offer-copy p {
+    padding: 0;
+    text-transform: none;
+  }
+  nav div.row div.offer div.offer-copy span {
+    display: inline-block;
+  }
+  header._green nav div.row div.offer a {
+    display: inline-block;
+    padding: 0;
+    color: var(--gold-md);
+    background: none;
+    border: 0;
+    border-radius: 0;
+  }
+}/*# sourceMappingURL=navigation.css.map */
